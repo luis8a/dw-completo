@@ -1,0 +1,307 @@
+*
+{
+ margin: 0%;
+ padding: 0%;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup
+{
+ display: block;
+}
+
+#agrupar
+{
+ margin: 1% auto;
+}
+
+#cabecera
+{
+ padding: 1% 0;
+ }
+
+#menu
+{
+ padding: 1% 0;
+ background: #CCCCCC;
+ }
+
+#menu li
+{
+ list-style: none;
+ margin: 0% 0% 1% 0%;
+ font: bold verdana, sans serif;
+ }
+
+#seccion
+{
+ margin: 1% 0;
+ }
+
+#columna
+{
+ margin: 1% 0%;
+ padding: 1% 0%;
+ background: #fffbb9; 
+ }
+
+#pie
+{
+text-align: center;
+border-top: solid #999999;
+}
+
+.texto2
+{
+color: red;
+}
+
+article
+{
+margin-bottom: 1%;
+}
+
+img
+{
+max-width: 100%;
+border: 0;
+}
+
+article footer
+{
+text-align: center;
+border-top: solid #999999;
+}
+
+time
+{
+color: blue;
+}
+
+figcaption
+{
+font: italic verdana, sans-serif;
+}
+
+p
+{
+
+}
+
+h1
+{
+font: bold verdana, sans-serif;
+margin: 1% 0%;
+}
+
+h2
+{
+font: bold verdana, sans-serif;
+margin: 0%;
+}
+
+h3
+{
+font: bold verdana, sans-serif;
+margin: 1% 0%;
+}
+
+h4
+{
+font: bold verdana, sans-serif;
+margin: 1% 0%;
+}
+
+#miformulario
+{
+margin: 1% 0%;
+padding: 1% 0%;
+width: 100%;
+}
+
+.etiqueta
+{
+margin: 0%;
+width: 100%;
+}
+
+.campo
+{
+margin: 0% 0% 1% 0%;
+width: 100%;
+}
+
+.opcionmenu
+{
+text-decoration: none;
+color: black;
+}
+
+.rangoedad
+{
+margin: 0% 1%;
+float: left;
+}
+
+#slider-container 
+{
+overflow: hidden;
+width: 100%;
+margin: auto;	
+}
+
+#slider-box 
+{
+-moz-animation: autoSlider 15s infinite linear;
+-o-animation: autoSlider 15s infinite linear;
+-webkit-animation: autoSlider 15s infinite linear;
+animation: autoSlider 15s infinite linear;
+
+-webkit-transition: all 0.75s ease;
+-moz-transition: all 0.75s ease;
+-ms-transition: all 0.75s ease;
+-o-transition: all 0.75s ease;
+transition: all 0.75s ease;
+
+height: 100%;
+width: 300%;
+}
+
+.slider-element 
+{
+float: left;
+width: 33.333%;
+}
+
+@-moz-keyframes autoSlider 
+{
+0% 
+	{
+        margin-left: 0;
+    	}
+30% 
+	{
+       	margin-left: 0;
+	}
+35% 
+	{
+       	margin-left: -100%;
+	}
+65% 
+	{
+       	margin-left: -100%;
+  	}
+70% 
+	{
+       	margin-left: -200%;
+   	}
+95% 
+	{
+       	margin-left: -200%;
+   	}
+100% 
+	{
+      	margin-left: -200%;
+    	}
+}
+
+@-webkit-keyframes autoSlider 
+{
+0% 
+	{
+        margin-left: 0;
+    	}
+30% 
+	{
+       	margin-left: 0;
+	}
+35% 
+	{
+       	margin-left: -100%;
+	}
+65% 
+	{
+       	margin-left: -100%;
+  	}
+70% 
+	{
+       	margin-left: -200%;
+   	}
+95% 
+	{
+       	margin-left: -200%;
+   	}
+100% 
+	{
+      	margin-left: -200%;
+    	}
+}
+
+@keyframes autoSlider 
+{
+0% 
+	{
+        margin-left: 0;
+    	}
+30% 
+	{
+       	margin-left: 0;
+	}
+35% 
+	{
+       	margin-left: -100%;
+	}
+65% 
+	{
+       	margin-left: -100%;
+  	}
+70% 
+	{
+       	margin-left: -200%;
+   	}
+95% 
+	{
+       	margin-left: -200%;
+   	}
+100% 
+	{
+      	margin-left: -200%;
+    	}
+}
+
+#logopagina
+{
+
+}
+
+#titulopagina
+{
+
+}
+
+audio
+{
+max-width: 100%;
+}
+
+video
+{
+max-width: 100%;
+}
+
+iframe
+{
+max-width: 100%;
+}
+
+.texto3
+{
+font: italic 14px verdana, sans-serif;
+color: red;
+}
+
+.texto4
+{
+font: italic 20px verdana, sans-serif;
+color: blue;
+}
+

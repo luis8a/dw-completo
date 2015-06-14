@@ -1,0 +1,326 @@
+*
+{
+ margin: 0%;
+ padding: 0%;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup
+{
+ display: block;
+}
+
+#agrupar
+{
+ float: left;
+ width: 100%;
+}
+
+#cabecera
+{
+ float: left;
+ width: 100%;
+ }
+
+#menu
+{
+ float: left;
+ width: 98%;
+ padding: 1%;
+ background: #CCCCCC;
+ }
+
+#menu li
+{
+ display: inline-block;
+ list-style: none;
+ margin: 0% 0% 0% 1%;
+ font: bold 14px verdana, sans serif;
+ }
+
+#seccion
+{
+ float: left;
+ width: 67%;
+ margin: 1%;
+ }
+
+#columna
+{
+ float: left;
+ width: 26%;
+ margin: 1%;
+ padding: 1%;
+ border: 1px solid #999999;
+ background: #fffbb9; 
+ }
+
+#pie
+{
+float: left;
+width: 100%;
+text-align: center;
+border-top: 1px solid #999999;
+}
+
+.texto2
+{
+color: red;
+}
+
+article
+{
+float: left;
+width: 100%;
+margin-bottom: 1%;
+}
+
+img
+{
+max-width: 100%;
+border: 0;
+}
+
+article footer
+{
+text-align: center;
+border-top: 1px solid #999999;
+}
+
+time
+{
+color: blue;
+}
+
+figcaption
+{
+font: italic 14px verdana, sans-serif;
+color: red;
+}
+
+p
+{
+font-size: 12px;
+}
+
+h1
+{
+font: bold 20px verdana, sans-serif;
+margin: 1%;
+}
+
+h2
+{
+font: bold 18px verdana, sans-serif;
+margin: 1%;
+}
+
+h3
+{
+font: bold 16px verdana, sans-serif;
+margin: 1%;
+}
+
+h4
+{
+font: bold 14px verdana, sans-serif;
+margin: 1%;
+}
+
+#miformulario
+{
+margin: 1%;
+padding: 1%;
+width: 96%;
+}
+
+.etiqueta
+{
+margin: 0% 1%;
+float: left;
+width: 98%;
+}
+
+.campo
+{
+margin: 0% 1% 1% 1%;
+float: left;
+width: 98%;
+}
+
+.opcionmenu
+{
+text-decoration: none;
+color: black;
+}
+
+.rangoedad
+{
+margin: 0% 1%;
+float: left;
+}
+
+#slider-container 
+{
+overflow: hidden;
+margin: auto;	
+}
+
+#slider-box 
+{
+-moz-animation: autoSlider 15s infinite linear;
+-o-animation: autoSlider 15s infinite linear;
+-webkit-animation: autoSlider 15s infinite linear;
+animation: autoSlider 15s infinite linear;
+
+-webkit-transition: all 0.75s ease;
+-moz-transition: all 0.75s ease;
+-ms-transition: all 0.75s ease;
+-o-transition: all 0.75s ease;
+transition: all 0.75s ease;
+
+height: 100%;
+width: 300%;
+}
+
+.slider-element 
+{
+float: left;
+width: 33.333%;
+}
+
+@-moz-keyframes autoSlider 
+{
+0% 
+	{
+        margin-left: 0;
+    	}
+30% 
+	{
+       	margin-left: 0;
+	}
+35% 
+	{
+       	margin-left: -100%;
+	}
+65% 
+	{
+       	margin-left: -100%;
+  	}
+70% 
+	{
+       	margin-left: -200%;
+   	}
+95% 
+	{
+       	margin-left: -200%;
+   	}
+100% 
+	{
+      	margin-left: -200%;
+    	}
+}
+
+@-webkit-keyframes autoSlider 
+{
+0% 
+	{
+        margin-left: 0;
+    	}
+30% 
+	{
+       	margin-left: 0;
+	}
+35% 
+	{
+       	margin-left: -100%;
+	}
+65% 
+	{
+       	margin-left: -100%;
+  	}
+70% 
+	{
+       	margin-left: -200%;
+   	}
+95% 
+	{
+       	margin-left: -200%;
+   	}
+100% 
+	{
+      	margin-left: -200%;
+    	}
+}
+
+@keyframes autoSlider 
+{
+0% 
+	{
+        margin-left: 0;
+    	}
+30% 
+	{
+       	margin-left: 0;
+	}
+35% 
+	{
+       	margin-left: -100%;
+	}
+65% 
+	{
+       	margin-left: -100%;
+  	}
+70% 
+	{
+       	margin-left: -200%;
+   	}
+95% 
+	{
+       	margin-left: -200%;
+   	}
+100% 
+	{
+      	margin-left: -200%;
+    	}
+}
+
+#logopagina
+{
+float: left;
+width: 5%;
+}
+
+#titulopagina
+{
+float: left;
+width: 80%;
+}
+
+audio
+{
+max-width: 100%;
+}
+
+video
+{
+max-width: 100%;
+}
+
+iframe
+{
+max-width: 100%;
+}
+
+.texto3
+{
+font: italic 14px verdana, sans-serif;
+color: red;
+}
+
+.texto4
+{
+font: italic 20px verdana, sans-serif;
+color: blue;
+}
+
+
